@@ -1,1 +1,1 @@
-echo "Running Challenge 1"
+echo "Hello World"
