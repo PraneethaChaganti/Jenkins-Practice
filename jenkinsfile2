@@ -4,8 +4,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                echo 'cloning git repository'
-                git url: 'https://github.com/PraneethaChaganti/Jenkins-Practice.git', branch: 'main'
+                echo 'checkout scm'
             }
         }
         
